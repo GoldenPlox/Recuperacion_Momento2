@@ -1,0 +1,96 @@
+.img{
+    border-radius: 20px;
+    width: 600px;
+    height: 350px;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.9)
+}
+
+#bandera {
+    margin: 100px auto;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 150px 0 0 yellow inset, 0 225px 0 0 blue
+    inset,0 300px 0 0 red inset , 5px 5px white;
+}
+
+.logo{
+    width: 650px;
+    height: 500px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 60px auto;
+    position: relative;
+}
+
+.rectangulo{
+    width: 100px;
+    height: 480px;
+    background-color: green;
+    top: 50%;
+    left: 30%;  
+    transform: translate(360%,-115%);
+}
+
+.rectangulo2{
+    width: 100px;
+    height: 350px;
+    background-color: white; 
+    transform: translate(476%,-279%);
+}
+
+.rectangulo3{
+    width: 100px;
+    height: 250px;
+    background-color: red;
+    top: 50%;
+    left: 30%;  
+    transform: translate(590%,-510%);
+}
+
+#bandera2 {
+    width: 600px;
+    height: 300px;
+    box-shadow: 0 150px 0 0 yellow inset, 0 225px 0 0 blue
+    inset,0 300px 0 0 red inset , 5px 5px white;
+    justify-content: right;
+    top: 50%;
+    left: 50%;
+    transform: translate(120%,50%);
+}
+
+#bandera3 {
+    width: 600px;
+    height: 300px;
+    box-shadow: 0 150px 0 0 yellow inset, 0 225px 0 0 blue
+    inset,0 300px 0 0 red inset , 5px 5px white;
+    justify-content: space-between, 100px;
+    transform: translate(1%,-1%);
+}
+
+#senegal span {display:inline-block;width:90px;height:250px;}
+	#senegal span:nth-child(1) {background-color:#00680e;}
+	#senegal span:nth-child(2) {background-color:rgb(184, 187, 19);}
+	#senegal span:nth-child(3) {background-color:#ce1126;}
+    #senegal { transform: translate(55%, -56%);}
+
+.rectangulo4{
+    width: 700px;
+    height: 150px;
+    background-color: red;
+    top: 50%;
+    left: 30%;
+    border-radius: 20px;
+    transform: translate(-50%,30%);
+}
+
+.img2{
+    transform: translate(1%,10%);
+}
+
+.img3{
+    transform: translate(125%,10%);
+}
+
+.img4{
+    transform: translate(230%,10%);
+}
